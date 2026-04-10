@@ -1,0 +1,496 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "type": "Concept",
+      "label": "Employé",
+      "x": 250,
+      "y": 100,
+      "stereotype": ""
+    },
+    {
+      "id": 2,
+      "type": "Concept",
+      "label": "Développeur",
+      "x": 150,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 3,
+      "type": "Concept",
+      "label": "Chef de Projet",
+      "x": 350,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 4,
+      "type": "Concept",
+      "label": "Administrateur Système",
+      "x": 250,
+      "y": 300,
+      "stereotype": ""
+    },
+    {
+      "id": 5,
+      "type": "Exemple",
+      "label": "Mohammed Alami",
+      "x": 150,
+      "y": 350,
+      "stereotype": ""
+    },
+    {
+      "id": 6,
+      "type": "Exemple",
+      "label": "Fatima Bennis",
+      "x": 350,
+      "y": 350,
+      "stereotype": ""
+    },
+    {
+      "id": 7,
+      "type": "Concept",
+      "label": "Projet",
+      "x": 650,
+      "y": 100,
+      "stereotype": ""
+    },
+    {
+      "id": 8,
+      "type": "Concept",
+      "label": "Tâche",
+      "x": 850,
+      "y": 100,
+      "stereotype": ""
+    },
+    {
+      "id": 9,
+      "type": "Concept",
+      "label": "Statut",
+      "x": 850,
+      "y": 200,
+      "stereotype": "Attribut"
+    },
+    {
+      "id": 10,
+      "type": "Exemple",
+      "label": "Projet ERP 2025",
+      "x": 650,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 11,
+      "type": "Exemple",
+      "label": "Développement Module RH",
+      "x": 850,
+      "y": 300,
+      "stereotype": ""
+    },
+    {
+      "id": 12,
+      "type": "Procédure",
+      "label": "Développer Application",
+      "x": 1100,
+      "y": 100,
+      "stereotype": "Processus"
+    },
+    {
+      "id": 13,
+      "type": "Procédure",
+      "label": "Analyser Besoins",
+      "x": 1250,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 14,
+      "type": "Procédure",
+      "label": "Coder",
+      "x": 1400,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 15,
+      "type": "Procédure",
+      "label": "Tester",
+      "x": 1550,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 16,
+      "type": "Procédure",
+      "label": "Déployer",
+      "x": 1700,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 17,
+      "type": "Trace",
+      "label": "Déploiement 15/01/2025",
+      "x": 1400,
+      "y": 350,
+      "stereotype": ""
+    },
+    {
+      "id": 18,
+      "type": "Principe",
+      "label": "Méthodologie Agile",
+      "x": 1100,
+      "y": 350,
+      "stereotype": "Méthode"
+    },
+    {
+      "id": 19,
+      "type": "Énoncé",
+      "label": "Sprint de 2 semaines",
+      "x": 950,
+      "y": 450,
+      "stereotype": ""
+    },
+    {
+      "id": 20,
+      "type": "Concept",
+      "label": "Équipe",
+      "x": 450,
+      "y": 450,
+      "stereotype": ""
+    },
+    {
+      "id": 21,
+      "type": "Concept",
+      "label": "Compétence",
+      "x": 100,
+      "y": 450,
+      "stereotype": ""
+    },
+    {
+      "id": 22,
+      "type": "Exemple",
+      "label": "Java",
+      "x": 100,
+      "y": 550,
+      "stereotype": ""
+    },
+    {
+      "id": 23,
+      "type": "Exemple",
+      "label": "Python",
+      "x": 200,
+      "y": 550,
+      "stereotype": ""
+    },
+    {
+      "id": 24,
+      "type": "Principe",
+      "label": "Politique de Sécurité",
+      "x": 650,
+      "y": 450,
+      "stereotype": "Règle"
+    },
+    {
+      "id": 25,
+      "type": "Énoncé",
+      "label": "Accès via VPN obligatoire",
+      "x": 650,
+      "y": 600,
+      "stereotype": ""
+    },
+    {
+      "id": 26,
+      "type": "Procédure",
+      "label": "Gérer Serveurs",
+      "x": 250,
+      "y": 650,
+      "stereotype": ""
+    },
+    {
+      "id": 27,
+      "type": "Concept",
+      "label": "Serveur",
+      "x": 450,
+      "y": 650,
+      "stereotype": ""
+    },
+    {
+      "id": 28,
+      "type": "Exemple",
+      "label": "Serveur Production",
+      "x": 600,
+      "y": 750,
+      "stereotype": ""
+    },
+    {
+      "id": 29,
+      "type": "Concept",
+      "label": "Budget",
+      "x": 650,
+      "y": 300,
+      "stereotype": "Ressource"
+    },
+    {
+      "id": 30,
+      "type": "Principe",
+      "label": "Planification",
+      "x": 1100,
+      "y": 500,
+      "stereotype": "Stratégie"
+    }
+  ],
+  "relations": [
+    {
+      "id": 3001,
+      "from": 2,
+      "to": 1,
+      "type": "S"
+    },
+    {
+      "id": 3002,
+      "from": 3,
+      "to": 1,
+      "type": "S"
+    },
+    {
+      "id": 3003,
+      "from": 4,
+      "to": 1,
+      "type": "S"
+    },
+    {
+      "id": 3004,
+      "from": 2,
+      "to": 5,
+      "type": "I"
+    },
+    {
+      "id": 3005,
+      "from": 3,
+      "to": 6,
+      "type": "I"
+    },
+    {
+      "id": 3006,
+      "from": 7,
+      "to": 8,
+      "type": "C"
+    },
+    {
+      "id": 3007,
+      "from": 8,
+      "to": 9,
+      "type": "C"
+    },
+    {
+      "id": 3008,
+      "from": 7,
+      "to": 10,
+      "type": "I"
+    },
+    {
+      "id": 3009,
+      "from": 8,
+      "to": 11,
+      "type": "I"
+    },
+    {
+      "id": 3010,
+      "from": 12,
+      "to": 13,
+      "type": "C"
+    },
+    {
+      "id": 3011,
+      "from": 12,
+      "to": 14,
+      "type": "C"
+    },
+    {
+      "id": 3012,
+      "from": 12,
+      "to": 15,
+      "type": "C"
+    },
+    {
+      "id": 3013,
+      "from": 12,
+      "to": 16,
+      "type": "C"
+    },
+    {
+      "id": 3014,
+      "from": 13,
+      "to": 14,
+      "type": "P"
+    },
+    {
+      "id": 3015,
+      "from": 14,
+      "to": 15,
+      "type": "P"
+    },
+    {
+      "id": 3016,
+      "from": 15,
+      "to": 16,
+      "type": "P"
+    },
+    {
+      "id": 3017,
+      "from": 12,
+      "to": 17,
+      "type": "I"
+    },
+    {
+      "id": 3018,
+      "from": 18,
+      "to": 12,
+      "type": "R"
+    },
+    {
+      "id": 3019,
+      "from": 18,
+      "to": 19,
+      "type": "I"
+    },
+    {
+      "id": 3020,
+      "from": 1,
+      "to": 20,
+      "type": "C"
+    },
+    {
+      "id": 3021,
+      "from": 2,
+      "to": 21,
+      "type": "C"
+    },
+    {
+      "id": 3022,
+      "from": 21,
+      "to": 22,
+      "type": "I"
+    },
+    {
+      "id": 3023,
+      "from": 21,
+      "to": 23,
+      "type": "I"
+    },
+    {
+      "id": 3024,
+      "from": 24,
+      "to": 7,
+      "type": "R"
+    },
+    {
+      "id": 3025,
+      "from": 24,
+      "to": 25,
+      "type": "I"
+    },
+    {
+      "id": 3026,
+      "from": 27,
+      "to": 26,
+      "type": "I/P"
+    },
+    {
+      "id": 3027,
+      "from": 27,
+      "to": 28,
+      "type": "I"
+    },
+    {
+      "id": 3028,
+      "from": 7,
+      "to": 29,
+      "type": "C"
+    },
+    {
+      "id": 3029,
+      "from": 5,
+      "to": 2,
+      "type": "A"
+    },
+    {
+      "id": 3030,
+      "from": 6,
+      "to": 3,
+      "type": "A"
+    },
+    {
+      "id": 3031,
+      "from": 10,
+      "to": 7,
+      "type": "A"
+    },
+    {
+      "id": 3032,
+      "from": 11,
+      "to": 8,
+      "type": "A"
+    },
+    {
+      "id": 3033,
+      "from": 17,
+      "to": 12,
+      "type": "A"
+    },
+    {
+      "id": 3034,
+      "from": 19,
+      "to": 18,
+      "type": "A"
+    },
+    {
+      "id": 3035,
+      "from": 25,
+      "to": 24,
+      "type": "A"
+    },
+    {
+      "id": 3036,
+      "from": 22,
+      "to": 21,
+      "type": "A"
+    },
+    {
+      "id": 3037,
+      "from": 23,
+      "to": 21,
+      "type": "A"
+    },
+    {
+      "id": 3038,
+      "from": 28,
+      "to": 27,
+      "type": "A"
+    },
+    {
+      "id": 3039,
+      "from": 8,
+      "to": 12,
+      "type": "I/P"
+    },
+    {
+      "id": 3040,
+      "from": 30,
+      "to": 7,
+      "type": "R"
+    },
+    {
+      "id": 3041,
+      "from": 30,
+      "to": 12,
+      "type": "R"
+    }
+  ],
+  "metadata": {
+    "node_counter": 30,
+    "version": "2.0"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "type": "Concept",
+      "label": "Étudiant",
+      "x": 200,
+      "y": 150,
+      "stereotype": ""
+    },
+    {
+      "id": 2,
+      "type": "Concept",
+      "label": "Cours",
+      "x": 500,
+      "y": 150,
+      "stereotype": ""
+    },
+    {
+      "id": 3,
+      "type": "Concept",
+      "label": "Inscription",
+      "x": 350,
+      "y": 300,
+      "stereotype": ""
+    },
+    {
+      "id": 4,
+      "type": "Concept",
+      "label": "Nom",
+      "x": 100,
+      "y": 250,
+      "stereotype": "Attribut"
+    },
+    {
+      "id": 5,
+      "type": "Concept",
+      "label": "Numéro",
+      "x": 300,
+      "y": 250,
+      "stereotype": "Attribut"
+    },
+    {
+      "id": 6,
+      "type": "Exemple",
+      "label": "Ahmed Benali",
+      "x": 200,
+      "y": 400,
+      "stereotype": ""
+    },
+    {
+      "id": 7,
+      "type": "Procédure",
+      "label": "S'inscrire",
+      "x": 600,
+      "y": 300,
+      "stereotype": "Méthode"
+    },
+    {
+      "id": 8,
+      "type": "Procédure",
+      "label": "Choisir cours",
+      "x": 700,
+      "y": 400,
+      "stereotype": ""
+    },
+    {
+      "id": 9,
+      "type": "Procédure",
+      "label": "Valider inscription",
+      "x": 850,
+      "y": 400,
+      "stereotype": ""
+    },
+    {
+      "id": 10,
+      "type": "Principe",
+      "label": "Limite d'inscription",
+      "x": 600,
+      "y": 150,
+      "stereotype": "Règle"
+    },
+    {
+      "id": 11,
+      "type": "Trace",
+      "label": "Inscription du 15/01/2025",
+      "x": 600,
+      "y": 500,
+      "stereotype": ""
+    },
+    {
+      "id": 12,
+      "type": "Énoncé",
+      "label": "Maximum 30 étudiants",
+      "x": 750,
+      "y": 150,
+      "stereotype": ""
+    },
+    {
+      "id": 13,
+      "type": "Concept",
+      "label": "Étudiant Master",
+      "x": 200,
+      "y": 50,
+      "stereotype": ""
+    },
+    {
+      "id": 14,
+      "type": "Exemple",
+      "label": "Cours IA-2025",
+      "x": 500,
+      "y": 400,
+      "stereotype": ""
+    }
+  ],
+  "relations": [
+    {
+      "id": 1001,
+      "from": 1,
+      "to": 4,
+      "type": "C"
+    },
+    {
+      "id": 1002,
+      "from": 1,
+      "to": 5,
+      "type": "C"
+    },
+    {
+      "id": 1003,
+      "from": 1,
+      "to": 6,
+      "type": "I"
+    },
+    {
+      "id": 1004,
+      "from": 13,
+      "to": 1,
+      "type": "S"
+    },
+    {
+      "id": 1005,
+      "from": 2,
+      "to": 14,
+      "type": "I"
+    },
+    {
+      "id": 1006,
+      "from": 7,
+      "to": 8,
+      "type": "C"
+    },
+    {
+      "id": 1007,
+      "from": 8,
+      "to": 9,
+      "type": "P"
+    },
+    {
+      "id": 1008,
+      "from": 7,
+      "to": 11,
+      "type": "I"
+    },
+    {
+      "id": 1009,
+      "from": 3,
+      "to": 7,
+      "type": "I/P"
+    },
+    {
+      "id": 1010,
+      "from": 10,
+      "to": 2,
+      "type": "R"
+    },
+    {
+      "id": 1011,
+      "from": 10,
+      "to": 12,
+      "type": "I"
+    },
+    {
+      "id": 1012,
+      "from": 6,
+      "to": 1,
+      "type": "A"
+    },
+    {
+      "id": 1013,
+      "from": 14,
+      "to": 2,
+      "type": "A"
+    },
+    {
+      "id": 1014,
+      "from": 11,
+      "to": 7,
+      "type": "A"
+    }
+  ],
+  "metadata": {
+    "node_counter": 14,
+    "version": "2.0"
+  }
+}

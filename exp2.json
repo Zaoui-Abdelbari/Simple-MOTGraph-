@@ -1,0 +1,346 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "type": "Concept",
+      "label": "Recette",
+      "x": 400,
+      "y": 100,
+      "stereotype": ""
+    },
+    {
+      "id": 2,
+      "type": "Concept",
+      "label": "Ingrédient",
+      "x": 200,
+      "y": 100,
+      "stereotype": ""
+    },
+    {
+      "id": 3,
+      "type": "Concept",
+      "label": "Recette Dessert",
+      "x": 400,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 4,
+      "type": "Concept",
+      "label": "Recette Plat Principal",
+      "x": 550,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 5,
+      "type": "Exemple",
+      "label": "Gâteau au Chocolat",
+      "x": 400,
+      "y": 320,
+      "stereotype": ""
+    },
+    {
+      "id": 6,
+      "type": "Exemple",
+      "label": "Farine",
+      "x": 100,
+      "y": 200,
+      "stereotype": ""
+    },
+    {
+      "id": 7,
+      "type": "Exemple",
+      "label": "Chocolat",
+      "x": 100,
+      "y": 280,
+      "stereotype": ""
+    },
+    {
+      "id": 8,
+      "type": "Exemple",
+      "label": "Sucre",
+      "x": 100,
+      "y": 360,
+      "stereotype": ""
+    },
+    {
+      "id": 9,
+      "type": "Procédure",
+      "label": "Préparer Gâteau",
+      "x": 650,
+      "y": 320,
+      "stereotype": "Algorithme"
+    },
+    {
+      "id": 10,
+      "type": "Procédure",
+      "label": "Mélanger Ingrédients",
+      "x": 800,
+      "y": 250,
+      "stereotype": ""
+    },
+    {
+      "id": 11,
+      "type": "Procédure",
+      "label": "Cuire au Four",
+      "x": 950,
+      "y": 250,
+      "stereotype": ""
+    },
+    {
+      "id": 12,
+      "type": "Procédure",
+      "label": "Refroidir",
+      "x": 1100,
+      "y": 250,
+      "stereotype": ""
+    },
+    {
+      "id": 13,
+      "type": "Principe",
+      "label": "Température de Cuisson",
+      "x": 950,
+      "y": 100,
+      "stereotype": "Contrainte"
+    },
+    {
+      "id": 14,
+      "type": "Énoncé",
+      "label": "Cuire à 180°C pendant 30min",
+      "x": 950,
+      "y": 380,
+      "stereotype": ""
+    },
+    {
+      "id": 15,
+      "type": "Trace",
+      "label": "Cuisson du 18/01/2025",
+      "x": 650,
+      "y": 450,
+      "stereotype": ""
+    },
+    {
+      "id": 16,
+      "type": "Concept",
+      "label": "Temps de Préparation",
+      "x": 250,
+      "y": 450,
+      "stereotype": "Propriété"
+    },
+    {
+      "id": 17,
+      "type": "Principe",
+      "label": "Allergènes",
+      "x": 400,
+      "y": 450,
+      "stereotype": "Règle"
+    },
+    {
+      "id": 18,
+      "type": "Énoncé",
+      "label": "Contient Gluten",
+      "x": 550,
+      "y": 550,
+      "stereotype": ""
+    },
+    {
+      "id": 19,
+      "type": "Exemple",
+      "label": "Œufs",
+      "x": 100,
+      "y": 440,
+      "stereotype": ""
+    },
+    {
+      "id": 20,
+      "type": "Concept",
+      "label": "Ustensile",
+      "x": 800,
+      "y": 450,
+      "stereotype": ""
+    },
+    {
+      "id": 21,
+      "type": "Exemple",
+      "label": "Moule à Gâteau",
+      "x": 950,
+      "y": 550,
+      "stereotype": ""
+    }
+  ],
+  "relations": [
+    {
+      "id": 2001,
+      "from": 3,
+      "to": 1,
+      "type": "S"
+    },
+    {
+      "id": 2002,
+      "from": 4,
+      "to": 1,
+      "type": "S"
+    },
+    {
+      "id": 2003,
+      "from": 3,
+      "to": 5,
+      "type": "I"
+    },
+    {
+      "id": 2004,
+      "from": 2,
+      "to": 6,
+      "type": "I"
+    },
+    {
+      "id": 2005,
+      "from": 2,
+      "to": 7,
+      "type": "I"
+    },
+    {
+      "id": 2006,
+      "from": 2,
+      "to": 8,
+      "type": "I"
+    },
+    {
+      "id": 2007,
+      "from": 2,
+      "to": 19,
+      "type": "I"
+    },
+    {
+      "id": 2008,
+      "from": 9,
+      "to": 10,
+      "type": "C"
+    },
+    {
+      "id": 2009,
+      "from": 9,
+      "to": 11,
+      "type": "C"
+    },
+    {
+      "id": 2010,
+      "from": 9,
+      "to": 12,
+      "type": "C"
+    },
+    {
+      "id": 2011,
+      "from": 10,
+      "to": 11,
+      "type": "P"
+    },
+    {
+      "id": 2012,
+      "from": 11,
+      "to": 12,
+      "type": "P"
+    },
+    {
+      "id": 2013,
+      "from": 2,
+      "to": 9,
+      "type": "I/P"
+    },
+    {
+      "id": 2014,
+      "from": 9,
+      "to": 5,
+      "type": "I/P"
+    },
+    {
+      "id": 2015,
+      "from": 13,
+      "to": 11,
+      "type": "R"
+    },
+    {
+      "id": 2016,
+      "from": 13,
+      "to": 14,
+      "type": "I"
+    },
+    {
+      "id": 2017,
+      "from": 9,
+      "to": 15,
+      "type": "I"
+    },
+    {
+      "id": 2018,
+      "from": 1,
+      "to": 16,
+      "type": "C"
+    },
+    {
+      "id": 2019,
+      "from": 17,
+      "to": 1,
+      "type": "R"
+    },
+    {
+      "id": 2020,
+      "from": 17,
+      "to": 18,
+      "type": "I"
+    },
+    {
+      "id": 2021,
+      "from": 5,
+      "to": 3,
+      "type": "A"
+    },
+    {
+      "id": 2022,
+      "from": 6,
+      "to": 2,
+      "type": "A"
+    },
+    {
+      "id": 2023,
+      "from": 7,
+      "to": 2,
+      "type": "A"
+    },
+    {
+      "id": 2024,
+      "from": 15,
+      "to": 9,
+      "type": "A"
+    },
+    {
+      "id": 2025,
+      "from": 14,
+      "to": 13,
+      "type": "A"
+    },
+    {
+      "id": 2026,
+      "from": 18,
+      "to": 17,
+      "type": "A"
+    },
+    {
+      "id": 2027,
+      "from": 20,
+      "to": 21,
+      "type": "I"
+    },
+    {
+      "id": 2028,
+      "from": 20,
+      "to": 11,
+      "type": "I/P"
+    }
+  ],
+  "metadata": {
+    "node_counter": 21,
+    "version": "2.0"
+  }
+}
