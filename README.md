@@ -19,7 +19,7 @@
 
 ## 🖥️ GUI 
 
->![GUI](C:\Users\pc\Desktop\TP_MOT\GUI_MOT.jpg)
+>![GUI](GUI_MOT.jpg)
 ---
 
 ## 🚀 Getting Started
