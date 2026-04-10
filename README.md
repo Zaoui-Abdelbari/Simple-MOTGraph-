@@ -17,10 +17,9 @@
 
 ---
 
-## 🖥️ Screenshot
+## 🖥️ GUI 
 
-> *(Add a screenshot of the application here)*
-
+>![GUI](C:\Users\pc\Desktop\TP_MOT\GUI_MOT.jpg)
 ---
 
 ## 🚀 Getting Started
