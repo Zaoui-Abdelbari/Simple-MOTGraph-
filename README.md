@@ -137,10 +137,6 @@ MOT (Modélisation par Objets Typés) is a knowledge modeling language developed
 
 ## 📄 License
 
-MIT License — feel free to use, modify, and distribute.
+feel free to use, modify, and distribute.
 
 ---
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
